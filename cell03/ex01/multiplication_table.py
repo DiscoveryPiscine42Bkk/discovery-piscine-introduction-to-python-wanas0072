@@ -7,7 +7,7 @@ i = 0
 
 while i <= 9:
     sum = i * x
-    print(i, "x", x , "=", sum)
+    print(f"{i} x {x} = {sum}")
     i += 1
 
 

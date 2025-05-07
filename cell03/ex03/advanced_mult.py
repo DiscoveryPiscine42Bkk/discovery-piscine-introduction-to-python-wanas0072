@@ -4,7 +4,7 @@ row = 0
 
 while row <= 10:
     col = 0
-    print("Table de",row,":", end=" ")
+    print(f"Table de {row}:", end=" ")
     while col <= 10:
         result = row * col
         print(result, end=" ")
