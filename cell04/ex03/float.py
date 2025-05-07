@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
 
-x = float(input("Give me a number: "))
+num = input("Give me a number: ")
+fnum = float(num)
+inum = int(fnum)
 
+if fnum == inum:
+    print("This number is an integer.")
+else:
+    print("This number is a decimal.")
