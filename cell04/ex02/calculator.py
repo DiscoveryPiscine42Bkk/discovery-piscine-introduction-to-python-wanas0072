@@ -6,5 +6,5 @@ print("Thank you!")
 
 print(f"{fnum} + {snum} = {fnum + snum}")
 print(f"{fnum} - {snum} = {fnum - snum}")
-print(f"{fnum} / {snum} = {fnum / snum}")
+print(f"{fnum} / {snum} = {int(fnum / snum)}")
 print(f"{fnum} * {snum} = {fnum * snum}")
