@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
+import math
 
-num = int(float(input("Give me a number: ")))
+num = float(input("Give me a number: "))
 
-print(num+1)
+print(math.ceil(num))
+#print(round(num))
