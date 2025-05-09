@@ -1,25 +1,14 @@
-from checkmate import checkmate
+from tescheck import checkmate
 
 def main():
     board = """\
-        R...
-        .K..
-        ..P.
-        ....\
-        """
+    ..Q.
+    ....
+    K...
+    ....\
+    """
     checkmate(board)
+    
 
 if __name__ ==  "__main__":
     main()
-
-# def main():
-#     board = """\
-#         R...
-#         .K..
-#         ..P.
-#         ....\
-#         """
-#     checkmate(board)
-
-# if __name__ ==  "__main__":
-#     main()
